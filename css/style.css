@@ -47,9 +47,9 @@ section{
 
 /*Para el espacio de los titulos*/
 
-/* .heading span.space{
+.heading span.space{
   background: none;
-} */
+}
 
 
 
@@ -79,6 +79,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 2rem 9%;
 }
 
 header .logo{
@@ -407,7 +408,7 @@ width: 100%;
 }
 
 
-/*Galería*/
+/*Servicio*/
 
 .services .box-container{
   display: flex;
@@ -445,7 +446,7 @@ width: 100%;
 }
 
 
-/*Servicios*/
+/*Galería*/
 
 .gallery .box-container{
   display: flex;
