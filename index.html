@@ -54,17 +54,17 @@
 
         <i class="fas fa-times" id="form-close"></i>
 
-        <form action="">
+        <form action="" id="form">
             <h3>Iniciar Sesión</h3>
-            <input type="email" class="box" placeholder="Introduce su correo electrónico"><!--Esta con mayuscula la primera letra-->
-            <input type="password" class="box" placeholder="Introduce su contraseña">
-            <a href="bienvenido.html" type="submit" class="btn">Inicia sesión ahora</a>
+            <input type="email" id="email" class="box" placeholder="Introduce su correo electrónico"><!--Esta con mayuscula la primera letra-->
+            <input type="password" id="password" class="box" placeholder="Introduce su contraseña">
+            <button type="submit" class="btn">Inicia sesión ahora</button>
             <!-- <input href="bienvenido.html" type="submit" value="Inicia sesión ahora" class="btn"> -->
             <input type="checkbox" id="remember">
             <label for="remember">Recordarme.</label>
             <p>¿Contraseña olvidada? <a href="#">Haga clic aquí.</a></p> 
-            <p>¿No tienes una cuenta? <a href="#">Regístrate ahora.</a></p>
-
+            <p>¿No tienes una cuenta? <a href="registrar.html">Regístrate ahora.</a></p>
+            <p class="warnings" id="warnings"></p>
         </form>
 
     </div>
@@ -624,7 +624,7 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script src="java/script.js"></script>
-
+    <script src="java/login.js"></script>
 
 
 </body>
