@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/navegador.css">
+    <title>Actualizar</title>
+    
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo">
+            <img src="img/logo.jfif" alt="logo hospital constitucion">
+            <h2 class="nombre-empresa">Editar reserva</h2>
+        </a>
+        <nav>
+            <a href="/mantencion_equipos/mantencion.php" type="submit" class="nav-link">Inicio</a>
+            <a href="/mantencion_equipos/tabla_mantencion.php" type="submit" class="nav-link">Tabla Mantención</a>
+            <a href="/mantencion_equipos/buscar.php" type="submit" class="nav-link">Buscar</a>
+        </nav>
+    </header>
+
+    <div>
+        <div>
+        <h1 class="container">Actualizar datos</h1>
+        </div>
+            <form class="form_f" action="update.php" method="POST">
+
+                <input type="hidden" name="n°_mantencion" value="<?php echo $row['n°_mantencion']  ?>">
+
+                    <input type="number" class="form_control" name="n°_mantencion" placeholder="N° Registro mantención" value="<?php echo $row['n°_mantencion']  ?>">
+                    <input type="text" class="form_control" name="fecha" placeholder="Fecha" value="<?php echo $row['fecha']  ?>">
+                    <input type="text" class="form_control" name="equipo" placeholder="Equipo" value="<?php echo $row['equipo']  ?>">
+                    <input type="text" class="form_control" name="marca" placeholder="Marca" value="<?php echo $row['marca']  ?>">
+                    <input type="text" class="form_control" name="modelo" placeholder="Modelo" value="<?php echo $row['modelo']  ?>">
+                    <input type="text" class="form_control" name="serie" placeholder="Serie" value="<?php echo $row['serie']  ?>">
+                    <input type="text" class="form_control" name="servicio" placeholder="Servicio" value="<?php echo $row['servicio']  ?>">
+                    <input type="text" class="form_control" name="n°_inventario" placeholder="N° Inventario" value="<?php echo $row['n°_inventario']  ?>">
+                    <input type="text" class="form_control" name="observaciones" placeholder="Observaciones" value="<?php echo $row['observaciones']  ?>">
+
+
+                    <input type="submit" class="botons" value="Actualizar">
+            </form>
+
+    </div>
+
+</body>
+</html>

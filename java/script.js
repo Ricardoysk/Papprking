@@ -6,6 +6,8 @@ let formClose = document.querySelector('#form-close');
 let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
 let videoBtn = document.querySelectorAll('.vid-btn');
+// let reservar = document.querySelector('#reservar-btn');
+// let resya = document.querySelector('.');
 
 window.onscroll = () =>{//para cuando la barra de buscar al momento de bajar se cierre
   searchBtn.classList.remove('fa-times');
@@ -43,8 +45,9 @@ videoBtn.forEach(btn =>{
 });
 
 var swiper = new Swiper(".review-slider", {
-    spaceBetween: 20,
+    spaceBetween: 15,
     loop:true,
+    lazyLoading: true,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,

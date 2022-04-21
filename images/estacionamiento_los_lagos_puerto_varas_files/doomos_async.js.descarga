@@ -1,0 +1,25 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// jQuery
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var $ = jQuery.noConflict();
+
+$(document).ready(function($) {
+
+    if($('.async_load').exists()){
+
+        $('.async_load').each(function(e){
+
+            $this = $(this);
+
+            if($this.attr("mode-load") == "background"){
+                $this.css("background-image", "url("+$this.attr("data-file")+")");
+            }else{
+                $this.attr("src",$this.attr("data-file"));
+            }
+
+        });
+
+    }
+
+});

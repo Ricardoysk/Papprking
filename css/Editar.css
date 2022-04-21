@@ -1,0 +1,15 @@
+.contenedor{
+    margin-top: 4%;
+    height: 33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor span{
+    font-size: 3.5rem;
+    background: rgba(255, 165, 0, .2);
+    color: var(--orange);
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+}

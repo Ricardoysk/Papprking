@@ -329,7 +329,7 @@ header .search-bar-container label:hover{
   background: var(--orange);
 }
 
-/*Book*/
+/*Nosotros*/
 
 .book .row{
   display: flex;
@@ -340,10 +340,11 @@ header .search-bar-container label:hover{
 
 .book .row .image{
   flex: 1 1 40rem;
+  text-align: center; /*Centrar imagen*/
 }
 
 .book .row .image img{
-width: 100%;
+width: 85%;
 }
 
 .book .row form{
@@ -366,10 +367,19 @@ width: 100%;
   text-transform: none;
 }
 
-.book .row form .inputBox h3{
-  font-size: 2rem;
-  padding: 1rem 0;
-  color: #666;
+.book .row h3{
+  color: black;
+}
+
+.book .row p{
+  text-transform: none;
+  color: #15181f;
+  font-size: 1.7rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 
@@ -462,6 +472,7 @@ width: 100%;
   font-size: 2.5rem;
   color: #666;
   padding: 1rem 0;
+  text-transform: none;
 }
 
 .services .box-container .box:hover{
@@ -513,11 +524,11 @@ width: 100%;
   color: var(--orange);
 }
 
-.gallery .box-container .box .content p{
+/* .gallery .box-container .box .content p{
   font-size: 1.5rem;
   color: #eee;
   padding: .5rem 0;
-}
+} */
 
 /*review*/
 
@@ -538,6 +549,12 @@ width: 100%;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
+}
+
+.review .swiper-slide img{
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
 }
 
 .review .box h3{
@@ -640,6 +657,7 @@ width: 100%;
   font-size: 1.5rem;
   padding: .7rem 0;
   color: #eee;
+  text-transform: none;
 }
 
 .footer .box-container .box a{
@@ -726,6 +744,7 @@ width: 100%;
     border-top: .1rem solid rgba(255,255,255,.2);
     padding:1rem 2rem;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    width: 100%;
   }
 
   header .navbar.active{
@@ -750,6 +769,7 @@ width: 100%;
 
   .heading span{
     font-size: 2.5rem;
+    width:100%;
   }
 
   .contact .row form .inputBox input{
