@@ -1,6 +1,6 @@
 .contenedor{
-    margin-top: 4%;
-    height: 33vh;
+    margin-top: 5%;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,4 +12,10 @@
     color: var(--orange);
     border-radius: .5rem;
     padding: .2rem 1rem;
+}
+
+.datos td{
+    color: black;
+    font-size: 15px;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
 }

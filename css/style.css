@@ -26,7 +26,7 @@ body {
   outline: none; border:none;
   text-decoration: none;
   transition: all .2s linear;
-} 
+}
 
 *::selection{
   background: var(--orange);
@@ -410,7 +410,7 @@ width: 85%;
 
 .packages .box-container .box .content h3{
   font-size: 2rem;
-  color: #333;  
+  color: #333;
 }
 
 .packages .box-container .box .content h3 i{
@@ -425,7 +425,7 @@ width: 85%;
 
 .packages .box-container .box .content .stars i{
   font-size: 1.7rem;
-  color: var(--orange);  
+  color: var(--orange);
 }
 
 .packages .box-container .box .content .price{
@@ -689,6 +689,28 @@ width: 85%;
 
 
 
+/*Tabla reservas*/
+
+.tabla_datos{
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  border: 4px solid #ffa500;
+  border-radius: 1rem;
+}
+.barra{
+  background: orange;
+}
+
+.barra td{
+  border: 5px solid #f39321;
+    width: 100px;
+    height: 50px;
+    border-radius: 2rem;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+}
 
 
 
@@ -755,7 +777,7 @@ width: 85%;
     display: block;
     border-radius: .5rem;
     padding:1.5rem;
-    margin:1.5rem 0;    
+    margin:1.5rem 0;
     background:#222;
   }
 
