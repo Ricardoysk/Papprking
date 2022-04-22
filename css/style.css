@@ -787,15 +787,24 @@ width: 85%;
 
   html{
     font-size: 50%;
+    margin-top: 30px;
   }
 
   .heading span{
     font-size: 2.5rem;
     width:100%;
+      width: 353px;
+    height: 72px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .contact .row form .inputBox input{
     width:100%;
+  }
+
+  .contenedor{
+    padding: 0px;
   }
 
 }
