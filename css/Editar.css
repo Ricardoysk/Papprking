@@ -19,3 +19,17 @@
     font-size: 15px;
     font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
 }
+
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor2 span{
+    font-size: 3.5rem;
+    background: rgba(255, 165, 0, .2);
+    color: var(--orange);
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+}

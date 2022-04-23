@@ -218,6 +218,7 @@ header .search-bar-container label:hover{
 
 .login-form-container form label{
   font-size: 1.5rem;
+  color: black;
 }
 
 .login-form-container form .btn{
@@ -356,6 +357,10 @@ width: 85%;
 
 .book .row form .inputBox{
   padding: .5rem 0;
+}
+.book .row form .inputBox h1{
+  color: black;
+   text-align: center;
 }
 
 .book .row form .inputBox input{

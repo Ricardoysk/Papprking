@@ -1,0 +1,17 @@
+ <form action="">
+
+        <input type="hidden" name="n°_mantencion" value="1">
+
+            <input type="number" class="form_control" name="n°_mantencion" placeholder="N° Registro mantención" value="1">
+            <input type="text" class="form_control" name="fecha" placeholder="Fecha" value="2021-11-26">
+            <input type="text" class="form_control" name="equipo" placeholder="Equipo" value="MONITOR MULTIPARÁMETRO">
+            <input type="text" class="form_control" name="marca" placeholder="Marca" value="EDANn">
+            <input type="text" class="form_control" name="modelo" placeholder="Modelo" value="M3">
+            <input type="text" class="form_control" name="serie" placeholder="Serie" value="M11CO2760020">
+            <input type="text" class="form_control" name="servicio" placeholder="Servicio" value="POLICLINICO">
+            <input type="text" class="form_control" name="n°_inventario" placeholder="N° Inventario" value="7-5766">
+            <input type="text" class="form_control" name="observaciones" placeholder="Observaciones" value="EQUIPO OPERATO">
+
+
+            <input type="submit" class="botons" value="Actualizar">
+    </form>

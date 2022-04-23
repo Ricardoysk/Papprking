@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/Editar.css" />
+    <link rel="stylesheet" href="css/reservas.css" />
+
+    <title>Pagar</title>
+</head>
+<body>
+
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+  
+        <a href="index.html" class="logo">P<span>APPrking</span></a>
+  
+        <nav class="navbar">
+          <a href="bienvenido.html">Home</a>
+          <a href="reservar.html">Reservar</a>
+          <a href="reservas.html">Tus reservas</a>
+          <a href="editar.html">Editar reservas</a>
+        </nav>
+      </header>
+
+
+      <div class="contenedor">
+        <h1 class="title">
+          <span>p</span>
+          <span>a</span>
+          <span>g</span>
+          <span>a</span>
+          <span>r</span>
+        </h1>
+      </div>
+
+
+    <section class="book" id="">
+    
+        <div class="row">
+    
+            <div class="image">
+                <img src="images/nosotros_estacionamiento.jpg" alt="">
+            </div>
+    
+            <form action="">
+                <div class="inputBox">
+                    <h1>Metodo de pago</h1>
+                    <h3>Banco</h3>
+                    <input type="text" placeholder="Metodo de pago.">
+                </div>
+                <div class="inputBox">
+                    <h3>Número de tarjeta</h3>
+                    <input type="number" placeholder="Número de tarjeta.">
+                </div>
+                <div class="inputBox">
+                    <h3>Correo</h3>
+                    <input type="email" placeholder="Correo electrónico.">
+                </div>
+                <div class="inputBox">
+                    <h3>Monto</h3>
+                <input class="form-control" id="Total" type="text" placeholder="Total a pagar" disabled>
+                </div>
+                <td class="column7"><button type="button" class="btn btn-warning"><a href="reservas.html">Pagar</a></button></td>
+            </form>
+
+
+    
+        </div>
+    
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="java/script.js"></script>
+
+</body>
+</html>
